@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SGPACalculator"
+        android:background="@android:color/white"
+        tools:targetApi="31">
+
+        <activity android:name=".Grade" android:launchMode="singleTask" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value="" />
+        </activity>
+
+        <activity android:name=".item_subject" android:launchMode="singleTask" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value="" />
+        </activity>
+
+        <activity android:name=".universalsgpa" android:launchMode="singleTask" android:exported="true">
+            <meta-data android:name="android.app.lib_name" android:value="" />
+        </activity>
+
+        <activity android:name=".MainActivity" android:launchMode="singleTask" android:exported="true">
+
+            <meta-data android:name="android.app.lib_name" android:value="" />
+        </activity>
+
+        <activity android:name=".Semester1DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".Semester2DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".csSemestersActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".csSemester3DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".csSemester4DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".csSemester5DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".csSemester6DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".csSemester7DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".csSemester8DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".civilSemestersActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".civilSemester3DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".civilSemester4DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".civilSemester5DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".civilSemester6DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".civilSemester7DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".civilSemester8DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".aiSemestersActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".aiSemester3DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".aiSemester4DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".aiSemester5DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".aiSemester6DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".aiSemester7DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".aiSemester8DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".eceSemestersActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".eceSemester3DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".eceSemester4DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".eceSemester5DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".eceSemester6DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".eceSemester7DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".eceSemester8DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".eeeSemestersActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".eeeSemester3DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".eeeSemester4DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".eeeSemester5DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".eeeSemester6DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".eeeSemester7DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".eeeSemester8DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".mechanicalSemestersActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".mechanicalSemester3DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".mechanicalSemester4DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".mechanicalSemester5DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".mechanicalSemester6DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".mechanicalSemester7DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".mechanicalSemester8DetailsActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".ProfileActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".SplashActivity" android:launchMode="singleTask" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="android.app.lib_name" android:value="" />
+        </activity>
+
+        <activity android:name=".KTUSGPA" android:launchMode="singleTask" android:exported="true">
+            <meta-data android:name="android.app.lib_name" android:value="" />
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

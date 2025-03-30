@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/subject_number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:gravity="center_vertical"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/subject_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Subject/Course"
+        style="@style/SmallHintText"/>
+
+    <EditText
+        android:id="@+id/subject_credit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:inputType="number"
+        android:hint="Credit" />
+
+    <Spinner
+        android:id="@+id/subject_grade"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/oval_outline"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="#000000" />
+</LinearLayout>

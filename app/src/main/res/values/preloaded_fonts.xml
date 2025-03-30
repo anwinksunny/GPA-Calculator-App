@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abeezee</item>
+        <item>@font/aclonica</item>
+        <item>@font/adlam_display</item>
+        <item>@font/akaya_telivigala</item>
+        <item>@font/aldrich</item>
+        <item>@font/alfa_slab_one</item>
+        <item>@font/anton</item>
+        <item>@font/audiowide</item>
+        <item>@font/bigshot_one</item>
+        <item>@font/bungee_inline</item>
+        <item>@font/bungee_shade</item>
+        <item>@font/calistoga</item>
+        <item>@font/rammetto_one</item>
+    </array>
+</resources>
